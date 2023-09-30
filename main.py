@@ -8,3 +8,6 @@ def principal():
     return f"The name of the module: {__name__}"
     # code here
     # anything ...
+
+if __name__ == "__main__":
+    print(principal())
